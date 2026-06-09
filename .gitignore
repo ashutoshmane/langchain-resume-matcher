@@ -1,0 +1,47 @@
+# --- Environment ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# --- Virtual environment ---
+venv/
+.venv/
+env/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Data directories ---
+# Keep the directory structure but ignore runtime data
+data/uploads/
+data/chroma/
+data/faiss/
+!data/.gitkeep
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Docker ---
+.docker/
+
+# --- Testing ---
+.cache/
+pytest_cache/
+.coverage
+htmlcov/
